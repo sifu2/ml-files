@@ -2,7 +2,7 @@ from pydantic import BaseModel
 
 
 class CreateFileOut(BaseModel):
-    link: str
+    file_name: str
 
 
 class FileExistsOut(BaseModel):
